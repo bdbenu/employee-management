@@ -21,6 +21,7 @@ public class EmployeeRestController {
 	@GetMapping("/test")
 	public String api() {
 		
+	System.out.println("Hi hello how are you");
 		return "API TESTD";
 	}
 
@@ -42,5 +43,8 @@ public class EmployeeRestController {
 
 		return response;
 	}
+	
+
+	
 
 }
